@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 
 # driver = webdriver.Firefox()
 driver = webdriver.Chrome()
-driver.get("http://www.python.org")
+driver.get("https://www.youtube.com")
 assert "Python" in driver.title
 elem = driver.find_element(By.NAME, "q")
 elem.clear()
